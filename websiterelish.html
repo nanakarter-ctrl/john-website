@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Relish Health Foods - Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Relish</a>
+      <a href="nutrition.html">Nutrition Basics</a>
+      <a href="products.html">Product Spotlight</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Welcome to Relish Health Foods</h1>
+      <p>Promoting healthy eating through education and quality products.</p>
+      <!-- Multimedia placeholder -->
+      <div class="media">
+        <video controls width="600">
+          <source src="assets/videos/relis_intro.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Relish Health Foods</p>
+  </footer>
+</body>
+</html>
+:root {
+  --brand: #4c9a62;
+  --text: #222;
+  --bg: #fff;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: var(--text);
+  margin: 0;
+  background: var(--bg);
+}
+header {
+  background: #f8f8f8;
+  padding: 10px 20px;
+}
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #333;
+}
+main {
+  padding: 20px;
+}
+.media { margin: 20px 0; }
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #f0f0f0;
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  nav a { display: block; margin: 6px 0; }
+}
